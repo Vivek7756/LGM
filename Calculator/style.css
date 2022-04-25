@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_container{
+display: flex;
+flex-direction: column;
+align-items: center;	
+width: 100hw;
+height: 100vh;
+}
+
+
+.main_container h1{
+min-width: 80%;
+padding: 20px;
+background-color: #00e7ff;
+font-family: 'Lobster', cursive;
+margin-bottom: 40px;
+text-align: center;
+}
+
+.main_container table{
+margin-top: 30px;
+border-spacing: 10px;
+background-color: #eeeeee;
+border-radius: 20px;
+box-shadow: 5px 5px 10px #0000003a;
+}
+
+table td{
+padding: 20px 40px;
+cursor: pointer;
+border-radius: 5px;
+transition: 0.8s all;
+}
+
+table tr td.clear:hover{
+    background-color: #fe3c53;
+}
+
+table td:hover{
+background-color: #00e7ff;
+}
+
+.result{
+padding: 5px 10px 5px 30px;
+}
+
+#input_box{
+border-radius: 15px;
+border: 2px solid #00e7ff;
+width: 100%;
+min-height: 100%;
+height: 50px;
+padding: 5px 10px;
+outline: none;
+font-size: 16px;
+}
+
+#input_box:focus{
+border: 2px solid #00e7ff;
+}
+
+td input[type="button"]{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+td.result:hover{
+    background-color: transparent;
+    cursor: default;
+}
+

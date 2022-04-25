@@ -1,0 +1,48 @@
+<html>
+<head><title> Calculator </title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main_container">
+<h1>Calculator</h1>
+<div class="calc_box">
+<table>
+<tr>
+<td colspan="3" class="result"><input id="input_box" type="text" disabled></td>
+<td colspan="1" onclick="clr()" class="clear"> C </td>
+</tr>
+<tr>
+<td onclick="calculate('1')"> 1 </td>
+<td onclick="calculate('2')"> 2 </td>
+<td onclick="calculate('3')"> 3 </td>
+<td onclick="calculate('+')"> + </td>
+</tr>
+<tr>
+<td onclick="calculate('4')"> 4 </td>
+<td onclick="calculate('5')"> 5 </td>
+<td onclick="calculate('6')"> 6 </td>
+<td onclick="calculate('-')"> - </td>
+</tr>
+<tr>
+<td onclick="calculate('7')"> 7 </td>
+<td onclick="calculate('8')"> 8 </td>
+<td onclick="calculate('9')"> 9 </td>
+<td onclick="calculate('*')"> * </td>
+</tr>
+<tr>
+<td onclick="calculate('.')"> . </td>
+<td onclick="calculate('0')"> 0 </td>
+<td onclick="result()" > = </td>
+<td onclick="calculate('/')"> / </td>
+</tr>
+</table>
+</div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
